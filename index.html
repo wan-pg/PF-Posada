@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COKUS DESIGN</title>
+
+    <!-- BOOTSTRAP -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+
+    <!-- hojas de estilo propia -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body">
+    <!-- layout móvil -->
+    <div class="contenedor-grid-movil">
+      <div class="contenedor-grid-movil-box barra">
+            <!-- logo cockus -->
+            <div class="barra--movil--logo">
+            <img src="./assets/Logo.png" alt="" />
+            </div>
+
+            <!-- Barra navegación -->
+            <div class="container barra--movil--nav d-flex align-items-center d-flex justify-content-end">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
+                            aria-controls="navbarNav"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav bg-secondary-subtle">
+                                <li class="nav-item">
+                                    <a
+                                    class="nav-link actives"
+                                    aria-current="page"
+                                    href="./pages/servicios.html"
+                                    >Servicios</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/nosotros.html"
+                                    >Nosotros</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/productos.html"
+                                    >Productos</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./pages/contacto.html"
+                                    >Contacto</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+      </div>
+
+      <!-- Carrusel de fotos -->
+
+      <div class="contenedor-grid-movil-box carrusel">
+            <div id="carouselExampleCaptions" class="carousel slide ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <img src="./assets/servicios_movil_comp.jpg" class="d-block w-100"alt="..."/>
+                        <div class="carousel-caption">
+                            <h5>SERVICIOS</h5>
+                            <p>
+                            Some representative placeholder content for the first slide.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./assets/diseño_del_producto.jpg" class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption ">
+                            <h5>NOSOTROS</h5>
+                            <p>
+                            Some representative placeholder content for the second slide.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img src="./assets/productos_movil_comp.jpg" class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption ">
+                            <h5>PRODUCTOS</h5>
+                            <p>
+                            Some representative placeholder content for the third slide.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/contacto_movil_comp.jpg" class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption ">
+                            <h5>CONTACTO</h5>
+                            <p>
+                            Some representative placeholder content for the third slide.
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>         
+        </div>
+
+        <div class="contenedor-grid-movil-box botones-texto">
+            <div class="botones-movil">
+                <button><a href="./pages/servicios.html">Servicios</a></button>
+                <button><a href="./pages/nosotros.html">Nosotros</a></button>
+                <button><a href="./pages/productos.html">Productos</a></button>
+                <button><a href="./pages/contacto.html">Contacto</a></button>
+            </div>
+
+            <div class="imagen_texto-movil">
+                <div class="imagen_texto-movil--imagen">
+                    <img src="./assets/getty_464267817_412822.jpg" alt="" />
+                </div>
+
+                <p class="imagen_texto-movil--texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio sequi dolorem rerum quasi.
+                </p>
+            </div>
+        </div> 
+
+        <!-- Footer -->
+        <div class="contenedor-grid-movil-box footer">
+            <img src="./assets/facebook.png" alt="" />
+            <img src="./assets/linkedin-logo.png" alt="" />
+            <img src="./assets/whatsapp.png" alt="" />
+
+        </div>
+    </div>
+
+    <!-- layout desktop -->
+
+    <div class="container-grid-desktop">
+        <div class="container-grid-desktop-item box-index servicios">
+            <img src="" alt="">
+            <div>
+                <a href="./pages/servicios.html"><h2>SERVICIOS</h2></a>
+                <P>Nuestro portafolio de servicios incluye todo lo necesario para que sus proyectos se vuelvan una realidad</P>
+            </div>        
+        </div>
+
+        <div class="container-grid-desktop-item box-index nosotros">
+            <img src="" alt="">
+            <div>
+                <a href="./pages/nosotros.html"><h2>NOSOTROS</h2></a>
+                <P>Contamos con un equipo de profesionales especializados en desarrollo y fabricación 100% a su disposición para dar solución a sus necesidades</P>
+            </div>
+        </div>
+
+        <div class="logo">
+            <img src="./assets/Logo.png" alt="">            
+        </div>
+
+        <div class="container-grid-desktop-item box-index productos">
+            <img src="" alt="">
+            <div>
+                <a href="./pages/productos.html"><h2>PRODUCTOS</h2></a>
+                <P>Consulte la variedad de productos para diferentes tipos de industria y mercados; y si no encuntra lo que necesita, permitanos acompañarlo a encontrara la solución a su necesidad. </P>
+            </div>
+        </div>
+
+        <div class="container-grid-desktop-item box-index contacto">
+            <img src="" alt="">
+            <div>
+                <a href="./pages/contacto.html"><h2>CONTACTO</h2></a>
+                <P>Déjenos sus datos para contactarlo e iniciar una sinergia que nos permita crecer y hacer realidad sus proyectos!!</P>
+            </div>
+        </div>
+    </div>
+
+    <!--JS - bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

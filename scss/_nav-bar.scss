@@ -1,0 +1,49 @@
+//nav-bar
+
+.barra, .barra-navegacion{
+    display: flex;
+    flex-direction: row;
+
+    .barra--movil--logo, .barra-navegacion-logo{
+
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+
+        img{
+            height: 100%;
+            padding: 5px;
+        }
+    }
+}
+
+//Nav-bar - pages sin index
+.barra-navegacion{
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+
+
+//Footer
+
+.footer{
+    box-sizing: border-box;
+    height: 50px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 0 0 10px 10px !important;
+
+    img{
+        height: 70%;
+        width: auto;
+        margin: 8px
+    }    
+    
+}
+
+
