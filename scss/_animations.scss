@@ -1,0 +1,25 @@
+//hover index
+.box-index{
+    figure{
+        &:hover{
+            .capa{
+                opacity: 1;
+                visibility: visible;
+                
+                p{
+                    top: 0;
+                    text-align: center;
+                }
+            }
+
+            img{
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+}
+
+
+    

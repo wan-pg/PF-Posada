@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Etiquetas palabras clave  -->
+    <meta name="description" content="Diseño, desarrollo y fabricación de productos">
+    <meta name="keywords" content="DISEÑO, FABRICACIÓN, INGENIERÍA, PRODUCTOS, CAD, RENDER, MODELACIÓN 3D, INYECCION DE PLÁSTICOS, SOPLADO, TERMOFORMADO">
+
     <title>COKUS DESIGN</title>
 
     <!-- BOOTSTRAP -->
@@ -29,14 +33,15 @@
       <div class="contenedor-grid-movil-box barra">
             <!-- logo cockus -->
             <div class="barra--movil--logo">
-            <img src="./assets/Logo.png" alt="" />
+                <img src="./assets/Logo.png" alt="logo cokus" />
             </div>
 
-            <!-- Barra navegación -->
+            <!-- Barra navegación -->         
+
             <div class="container barra--movil--nav d-flex align-items-center d-flex justify-content-end">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <nav class="navegacion naveg--movil navbar navbar-expand-lg">
+                    <div class="container-fluid d-flex justify-content-end">
+                        
                         <button
                             class="navbar-toggler"
                             type="button"
@@ -47,7 +52,7 @@
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="links-bar collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav bg-secondary-subtle">
                                 <li class="nav-item">
                                     <a
@@ -76,7 +81,7 @@
                         </div>
                     </div>
                 </nav>
-            </div>
+            </div> 
       </div>
 
       <!-- Carrusel de fotos -->
@@ -180,40 +185,52 @@
     <!-- layout desktop -->
 
     <div class="container-grid-desktop">
-        <div class="container-grid-desktop-item box-index servicios">
-            <img src="" alt="">
-            <div>
-                <a href="./pages/servicios.html"><h2>SERVICIOS</h2></a>
-                <P>Nuestro portafolio de servicios incluye todo lo necesario para que sus proyectos se vuelvan una realidad</P>
-            </div>        
+        <div class="container-grid-desktop-item box-index servicios">            
+            <figure>
+                <a href="./pages/servicios.html"><h2><u>SERVICIOS</u></h2></a>
+                <img src="./assets/Industrial_Design.jpg" alt="">                
+                <div class="capa">
+                    <!-- <a href="./pages/servicios.html"><h2>SERVICIOS</h2></a> -->
+                    <P class="texto-index-desktop">Nuestro portafolio de servicios incluye todo lo necesario para que sus proyectos se vuelvan una realidad</P>
+                </div>
+            </figure>                                          
         </div>
 
         <div class="container-grid-desktop-item box-index nosotros">
-            <img src="" alt="">
-            <div>
-                <a href="./pages/nosotros.html"><h2>NOSOTROS</h2></a>
-                <P>Contamos con un equipo de profesionales especializados en desarrollo y fabricación 100% a su disposición para dar solución a sus necesidades</P>
-            </div>
+            <figure>
+                <a href="./pages/nosotros.html"><h2><u>NOSOTROS</u></h2></a>
+                <img src="./assets/trabajo_en_equipo.jpg" alt="">
+                <div class="capa">
+                    <!-- <a href="./pages/nosotros.html"><h2>NOSOTROS</h2></a> -->
+                    <P class="texto-index-desktop">Contamos con un equipo de profesionales especializados en desarrollo y fabricación 100% a su disposición para dar solución a sus necesidades</P>
+                </div>
+            </figure>            
         </div>
 
-        <div class="logo">
+        <div class="logo box-index">
             <img src="./assets/Logo.png" alt="">            
         </div>
 
         <div class="container-grid-desktop-item box-index productos">
-            <img src="" alt="">
-            <div>
-                <a href="./pages/productos.html"><h2>PRODUCTOS</h2></a>
-                <P>Consulte la variedad de productos para diferentes tipos de industria y mercados; y si no encuntra lo que necesita, permitanos acompañarlo a encontrara la solución a su necesidad. </P>
-            </div>
+            <figure>
+                <a href="./pages/productos.html"><h2><u>PRODUCTOS</u></h2></a>
+                <img src="./assets/productos 1.jpg" alt="">
+                <div class="capa">
+                    <!-- <a href="./pages/productos.html"><h2>PRODUCTOS</h2></a> -->
+                    <P class="texto-index-desktop">Consulte la variedad de productos para diferentes tipos de industria y mercados; y si no encuntra lo que necesita, permitanos acompañarlo a encontrara la solución a su necesidad. </P>
+                </div>
+            </figure>            
         </div>
 
         <div class="container-grid-desktop-item box-index contacto">
-            <img src="" alt="">
-            <div>
-                <a href="./pages/contacto.html"><h2>CONTACTO</h2></a>
-                <P>Déjenos sus datos para contactarlo e iniciar una sinergia que nos permita crecer y hacer realidad sus proyectos!!</P>
-            </div>
+            <figure>
+                <a href="./pages/contacto.html"><h2><u>CONTACTO</u></h2></a>
+                <img src="./assets/Operadora 2.jpg" alt="">
+                <div class="capa">
+                    <!-- <a href="./pages/contacto.html"><h2>CONTACTO</h2></a> -->
+                    <P class="texto-index-desktop">Déjenos sus datos para contactarlo e iniciar una sinergia que nos permita crecer y hacer realidad sus proyectos!!</P>
+                </div>
+            </figure>            
         </div>
     </div>
 

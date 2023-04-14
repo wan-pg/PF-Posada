@@ -2,7 +2,7 @@
 
 .contenedor-grid-movil{
     display: grid;
-    grid-template-rows: 80px 30vh 47vh 80px;
+    grid-template-rows: 80px 28vh 47vh 80px;
     grid-template-columns: 1fr;
     row-gap: 10px;
     height: 100%;
@@ -64,7 +64,7 @@
     "servicios servicios contacto"
     "nosotros logo contacto"                  
     "nosotros productos productos";
-    grid-template-rows: 2fr 1.5fr 2fr;         
+    grid-template-rows: 2fr 1.5fr 2fr !important;         
     overflow: hidden;
     height: 100vh;
     width: 100vw;
